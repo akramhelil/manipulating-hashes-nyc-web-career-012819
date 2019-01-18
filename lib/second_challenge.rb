@@ -8,11 +8,6 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.each do |attribute, var|
-  if attribute == :keys
-    value.each do |var|
-      puts "#{var}"
+groceries.values.flatten
     end
-end
-  
 end
